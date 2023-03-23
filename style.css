@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+body {
+	background-color: #323232;
+}
+.container {
+	max-width: 1240px;
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+	color: #fff;
+	margin: 0 auto;
+}
+.wrapper {
+	border: 1px solid tomato;
+	margin-top: 5%;
+	padding: 5%;
+}
+.box > h1 {
+	/*font-size: calc(18px + 18 * (100vw / 1280));*/
+	font-size: calc(18px + 18 * ((100vw - 320px) / (1280 - 320)));
+	text-transform: uppercase;
+}
+
+.box > p {
+	line-height: 1.5;
+	margin-top: 5%;
+}
